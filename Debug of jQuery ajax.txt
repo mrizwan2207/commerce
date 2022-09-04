@@ -1,0 +1,5 @@
+click on registration button 
+inspect the page using right click of mouse
+click on network tab
+click on regisration_process function 
+click on response tab

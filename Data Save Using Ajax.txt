@@ -1,0 +1,13 @@
+jQuery('#frmRegistration').submit(function(e){ // if form submit using ajax
+  e.preventDefault(); // stop defaulut Broser Event
+  jQuery.ajax({ 
+    url:'registration_process', // data send to url
+    data:jQuery('#frmRegistration').serialize(), // all data of registratin form
+    type:'post', // method
+    success:function(result){ // when success and return data into varriable as result
+
+    }
+
+  });
+
+});
